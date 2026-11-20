@@ -1,0 +1,11 @@
+{
+  "name": "a1-express-microservices",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Đồ án Quản lý Vận chuyển & Giao hàng — Java Spring Boot Microservices + React JSX",
+  "scripts": {
+    "migrate": "node database/mysql-xampp/migrate.mjs",
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build"
+  }
+}
